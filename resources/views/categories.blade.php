@@ -9,7 +9,7 @@
 
         <div class="col-md-4">
 
-            <a href="/posts?category{{ $category->slug}}">
+            <a href="/posts?category={{ $category->slug}}">
                 <div class="card bg-dark text-white">
                     <img src="https://source.unsplash.com/400x400?{{ $category->name }}" class="card-img-top" alt="{{ $category->name }}">
                     <div class="card-img-overlay d-flex align-items-center p-0">

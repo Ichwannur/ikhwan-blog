@@ -31,6 +31,12 @@
               </button>
             </form>
           </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex align-items-center gap-2 {{ Request::is('/') ? 'active' : '' }}" href="/">
+              <svg class="bi"><use xlink:href="#file-earmark"/></svg>
+              Blog
+            </a>
+          </li>
         </ul>
       </div>
     </div>

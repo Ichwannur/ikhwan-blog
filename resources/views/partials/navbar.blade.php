@@ -24,7 +24,7 @@
 
         @auth
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <p class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Welcome back , {{ auth()->user()->name }}
           </a>
           <ul class="dropdown-menu">
